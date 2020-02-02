@@ -3,6 +3,7 @@ import { RoomContext } from "../context";
 import Loading from "./Loading";
 import Room from "./Room";
 import Title from "./Title";
+
 export class FeaturedRooms extends Component {
   static contextType = RoomContext;
   render() {
