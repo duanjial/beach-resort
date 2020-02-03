@@ -1,6 +1,6 @@
 import { createClient } from "contentful";
 
 export default createClient({
-  space: "pnuy592c45ow",
-  accessToken: "AlP48DbLUbXVTLVVOlRFH6oo8FAjnuAAOUg10NHE3H0"
+  space: process.env.API_SPACE,
+  accessToken: process.env.API_ACCESS_TOKEN
 });
